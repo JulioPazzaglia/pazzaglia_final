@@ -14,10 +14,10 @@ function AppNavbar() {
           <Nav.Link href='/' style={styles.navLink}>
             Home
           </Nav.Link>
-          <Nav.Link href='pazzaglia_final/login' style={styles.navLink}>
+          <Nav.Link href='/login' style={styles.navLink}>
             Login
           </Nav.Link>
-          <Nav.Link href='pazzaglia_final/registro' style={styles.navLink}>
+          <Nav.Link href='/registro' style={styles.navLink}>
             Registro
           </Nav.Link>
         </Nav>

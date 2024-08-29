@@ -3,7 +3,7 @@ import React from "react";
 function ProductItem({ nombre, precio, stock, id }) {
   return (
     <div style={styles.productItem}>
-      <a href={`pazzaglia_final/productos/${id}`}>
+      <a href={`/productos/${id}`}>
         <div style={styles.productInfo}>
           <div style={styles.productTitle}>{nombre}</div>
           <div style={styles.productPrice}>${precio} /kg</div>
