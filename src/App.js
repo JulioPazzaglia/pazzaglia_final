@@ -11,7 +11,7 @@ function App() {
     <Router>
       <AppNavbar />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='pazzaglia_final/' element={<Home />} />
         <Route path='/productos/:id' element={<ProductDetails />} />
         <Route path='/login' element={<Login />} />
         <Route path='/registro' element={<Register />} />

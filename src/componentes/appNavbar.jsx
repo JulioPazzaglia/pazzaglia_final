@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function AppNavbar() {
   return (
     <Navbar expand='lg' style={styles.navbar}>
-      <Navbar.Brand href='/' style={styles.brand}>
+      <Navbar.Brand href='pazzaglia-final/' style={styles.brand}>
         🛒
       </Navbar.Brand>
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
@@ -14,10 +14,10 @@ function AppNavbar() {
           <Nav.Link href='/' style={styles.navLink}>
             Home
           </Nav.Link>
-          <Nav.Link href='/login' style={styles.navLink}>
+          <Nav.Link href='pazzaglia-final/login' style={styles.navLink}>
             Login
           </Nav.Link>
-          <Nav.Link href='/registro' style={styles.navLink}>
+          <Nav.Link href='pazzaglia-final/registro' style={styles.navLink}>
             Registro
           </Nav.Link>
         </Nav>
