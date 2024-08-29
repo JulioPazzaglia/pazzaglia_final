@@ -12,9 +12,12 @@ function App() {
       <AppNavbar />
       <Routes>
         <Route path='pazzaglia_final/' element={<Home />} />
-        <Route path='/productos/:id' element={<ProductDetails />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/registro' element={<Register />} />
+        <Route
+          path='pazzaglia_final/productos/:id'
+          element={<ProductDetails />}
+        />
+        <Route path='pazzaglia_final/login' element={<Login />} />
+        <Route path='pazzaglia_final/registro' element={<Register />} />
       </Routes>
     </Router>
   );
